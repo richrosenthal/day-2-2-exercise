@@ -4,9 +4,10 @@ weight = input("enter your weight in kg: ")
 # 🚨 Don't change the code above 👆
 
 #Write your code below this line 👇
-newWeight = float(weight)
+newWeight = float(weight) #change string to float
 newHeight = float(height)
-BMI = newWeight/(newHeight**newHeight)
+#BMI formula
+BMI = newWeight/(newHeight**2)
 print("Your BMI is :" + str(BMI) + ". The more you know...")
 
 
